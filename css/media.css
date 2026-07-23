@@ -1,0 +1,177 @@
+@media (max-width: 1040px) {
+  .nav {
+    justify-content: space-around;
+  }
+
+  .container-2 {
+    padding-left: 30px;
+  }
+
+  .prise {
+    justify-content: space-around;
+  }
+
+  .contakt-main > img {
+    max-width: 500px;
+  }
+
+  .main-form {
+    padding: 0 20px;
+    height: auto;
+  }
+
+  .form > h4 {
+    font-size: 24px;
+    margin: 137px 0px 40px 0px;
+  }
+
+  .footer-1 {
+    max-width: 100%;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav > ul > li > a {
+    font-size: 20px;
+  }
+
+  .nav > a {
+    font-size: 20px;
+  }
+
+  .nav > img {
+    max-width: 32px;
+  }
+
+  .nav > ul > li {
+    font-size: 20px;
+  }
+
+  .promo-box > h1 {
+    font-size: 44px;
+  }
+
+  .promo-box > img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .img-2 {
+    margin-left: 50px;
+  }
+
+  .prise {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 40px;
+  }
+
+  .iphone-card {
+    max-width: 50%;
+  }
+
+  .contakt-main {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .main-form {
+    width: 100%;
+    padding: 100px 0px 50px;
+  }
+
+  .form > h4 {
+    margin-top: 0px;
+  }
+
+  .contakt-main > img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .footer-1 > a {
+    font-size: 20px;
+  }
+
+  .footer-1 > img {
+    max-width: 32px;
+  }
+}
+
+@media (max-width: 426px) {
+  body {
+    font-size: 16px;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .nav > ul > li > a {
+    font-size: 18px;
+  }
+
+  .nav > .logo:nth-child(2) {
+    order: -1;
+  }
+
+  .container-2 {
+    flex-direction: column;
+    padding: 0;
+    margin: 0px 20px;
+  }
+  .img-2 {
+    margin: 30px auto 0px;
+  }
+
+  .form {
+    margin: 0px 20px;
+  }
+
+  .form > input {
+    max-width: 100%;
+  }
+
+  .footer-1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-1 > img:nth-child(2) {
+    order: -1;
+  }
+
+  .footer-1 > a {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container-2-1 > p:nth-of-type(4) {
+    text-align: center;
+  }
+  .promo-box > button {
+    max-width: 90%;
+    font-size: 20px;
+  }
+  .promo-box > h1 {
+    text-align: center;
+    font-size: 38px;
+  }
+  .img-2 {
+    max-width: 100%;
+  }
+
+  .form > h4 {
+    text-align: center;
+  }
+
+  .footer-1 {
+    gap: 0px;
+  }
+}

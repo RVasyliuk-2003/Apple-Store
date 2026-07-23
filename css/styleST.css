@@ -1,0 +1,299 @@
+/* Загальні значення */
+
+
+/* Навігаційна панель */
+
+header {
+    background-color: #0a0a0a;
+}
+
+.container {
+    max-width: 1200px;
+    /* для адаптації */
+
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 33px;
+    padding-bottom: 32px;
+
+}
+
+.nav > ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+.nav > ul > li > a {
+    text-decoration: none;
+    color: #717171;
+
+    font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 24px;
+}
+
+.nav > a {
+    font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 24px;
+        color: #717171;
+
+        text-decoration: none;
+}
+
+.nav > img {
+    display: block;
+    width: 40px;
+    height: 48px;
+}
+
+
+/* Секція 1 */
+
+.promo {
+background-color: #F5F5F7;
+}
+
+.promo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    padding: 71px 0px 40px 0px;
+}
+
+.promo-box > img {
+    max-width: 937px;
+    max-height: 657px;
+
+    margin-top: 40px;
+}
+
+.promo-box > h1 {
+    font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 64px;
+        color: #490e84;
+
+}
+
+.promo-box > button {
+    width: 350px;
+    height: 40px;
+
+    background-color: #490e84;
+    border-radius: 30px;
+    margin-top: 25px;
+
+    font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 24px;
+        color: #fff;
+}
+
+
+/* Секція 2 */
+
+.container-2 {
+    display: flex;
+    /* justify-content: space-between; */
+
+    margin: 0px auto;
+    max-width: 1101px;
+    /* max-height: 533px; */
+}
+
+.container-2-1{
+    font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        color: #0a0a0a;
+}
+
+#par {
+font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #0a0a0a;
+}
+
+
+.img-2 {
+    display: block;
+    margin-left: 190px;
+
+    max-width: 350px;
+}
+
+
+/* Загальні значення 2-х для заголовків */
+.main-h2 {
+    display: block;
+    text-align: center;
+    margin: 85px 0px 50px 0px;
+
+
+    font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 32px;
+        color: #717171;
+
+}
+
+#main-h02 {
+    margin-top: 150px;
+}
+
+/* Секція 3 */
+
+.prise {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.iphone-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    max-width: 240px;
+
+    /* display block обовязково має бути? */
+    display: block;
+}
+
+.iphone-card h5 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #0a0a0a;
+    
+    margin: 20px 0px 10px 0px;
+}
+
+.iphone-card p {
+        font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        color: #0a0a0a;
+}
+
+/* Секція 4 */
+
+.contakt-main {
+    margin: 150px auto 0px;
+    max-width: 1200px;
+
+    display: flex;
+}
+
+.main-form {
+    width: 600px;
+    height: 600px;
+    background-color: #574b63;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form h4 {
+    font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 32px;
+        color: #fff;
+
+        margin: 137px 0px 72px 0px;
+}
+
+.form input {
+    
+
+    width: 400px;
+    border-style: none;
+    border-bottom: 1px solid #f5f5f5;
+
+    background-color: transparent;
+    
+    font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        color: #fff;
+}
+
+#inp-2 {
+    margin-top: 30px;
+}
+
+.form p {
+    font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        color: #fff;
+        opacity: 0.5;
+
+        margin-top: 30px;
+}
+
+.form button {
+    border-radius: 30px;
+    width: 240px;
+    height: 50px;
+
+    margin-top: 30px;
+
+    background-color: #fff;
+    color: #490e84;
+    font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 130%;
+}
+
+/* Секція 5 */
+
+footer {
+    background-color: #0a0a0a;
+}
+
+.footer-1 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1200px;
+        height: 150px;
+}
+
+.footer-1 > a {
+    text-decoration: none;
+        color: #717171;
+    
+        font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 24px;
+}
+
+
